@@ -1,0 +1,442 @@
+{
+  "modelo": "Random Forest",
+  "labels": [
+    "Graduate",
+    "Dropout",
+    "Enrolled"
+  ],
+  "cat_cols": {
+    "marital_status": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "moda": "1"
+    },
+    "application_mode": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "moda": "1"
+    },
+    "course": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "moda": "12"
+    },
+    "daytime_evening_attendance": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "1"
+    },
+    "previous_qualification": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "moda": "1"
+    },
+    "nacionality": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "moda": "1"
+    },
+    "mother_s_qualification": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "moda": "1"
+    },
+    "father_s_qualification": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34"
+      ],
+      "moda": "27"
+    },
+    "mother_s_occupation": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "moda": "10"
+    },
+    "father_s_occupation": {
+      "valores": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "moda": "10"
+    },
+    "displaced": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "1"
+    },
+    "educational_special_needs": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "0"
+    },
+    "debtor": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "0"
+    },
+    "tuition_fees_up_to_date": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "1"
+    },
+    "gender": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "0"
+    },
+    "scholarship_holder": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "0"
+    },
+    "international": {
+      "valores": [
+        "0",
+        "1"
+      ],
+      "moda": "0"
+    }
+  },
+  "num_cols": {
+    "application_order": {
+      "min": 0.0,
+      "max": 9.0,
+      "mediana": 1.0,
+      "entero": true
+    },
+    "age_at_enrollment": {
+      "min": 17.0,
+      "max": 70.0,
+      "mediana": 20.0,
+      "entero": true
+    },
+    "curricular_units_1st_sem_credited": {
+      "min": 0.0,
+      "max": 20.0,
+      "mediana": 0.0,
+      "entero": true
+    },
+    "curricular_units_1st_sem_enrolled": {
+      "min": 0.0,
+      "max": 26.0,
+      "mediana": 6.0,
+      "entero": true
+    },
+    "curricular_units_1st_sem_evaluations": {
+      "min": 0.0,
+      "max": 45.0,
+      "mediana": 8.0,
+      "entero": true
+    },
+    "curricular_units_1st_sem_approved": {
+      "min": 0.0,
+      "max": 26.0,
+      "mediana": 5.0,
+      "entero": true
+    },
+    "curricular_units_1st_sem_grade": {
+      "min": 0.0,
+      "max": 18.875,
+      "mediana": 12.25,
+      "entero": false
+    },
+    "curricular_units_1st_sem_without_evaluations": {
+      "min": 0.0,
+      "max": 12.0,
+      "mediana": 0.0,
+      "entero": true
+    },
+    "curricular_units_2nd_sem_credited": {
+      "min": 0.0,
+      "max": 19.0,
+      "mediana": 0.0,
+      "entero": true
+    },
+    "curricular_units_2nd_sem_enrolled": {
+      "min": 0.0,
+      "max": 23.0,
+      "mediana": 6.0,
+      "entero": true
+    },
+    "curricular_units_2nd_sem_evaluations": {
+      "min": 0.0,
+      "max": 33.0,
+      "mediana": 8.0,
+      "entero": true
+    },
+    "curricular_units_2nd_sem_approved": {
+      "min": 0.0,
+      "max": 20.0,
+      "mediana": 5.0,
+      "entero": true
+    },
+    "curricular_units_2nd_sem_grade": {
+      "min": 0.0,
+      "max": 18.571428571428573,
+      "mediana": 12.2,
+      "entero": false
+    },
+    "curricular_units_2nd_sem_without_evaluations": {
+      "min": 0.0,
+      "max": 12.0,
+      "mediana": 0.0,
+      "entero": true
+    },
+    "unemployment_rate": {
+      "min": 7.6,
+      "max": 16.2,
+      "mediana": 11.1,
+      "entero": false
+    },
+    "inflation_rate": {
+      "min": -0.8,
+      "max": 3.7,
+      "mediana": 1.4,
+      "entero": false
+    },
+    "gdp": {
+      "min": -4.06,
+      "max": 3.51,
+      "mediana": 0.32,
+      "entero": false
+    }
+  },
+  "derivadas": [
+    "tasa_aprob_1s",
+    "tasa_aprob_2s",
+    "tasa_aprob_total",
+    "variacion_nota",
+    "variacion_tasa_aprob"
+  ]
+}
