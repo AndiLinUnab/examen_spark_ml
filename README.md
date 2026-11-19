@@ -5,7 +5,7 @@ Aplicación web que clasifica a un estudiante en **Dropout**, **Enrolled** o **G
 
 **🔗 App desplegada:** <https://examensparkml-jynn2xuxma9gsoxpts2jv2.streamlit.app>
 
-**Autor:** TU NOMBRE COMPLETO · Examen Big Data – Spark ML (Parte 2)
+**Autor:** Andi Lin · Examen Big Data – Spark ML (Parte 2)
 
 ## Contenido del repositorio
 | Archivo | Descripción |
